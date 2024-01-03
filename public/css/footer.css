@@ -1,0 +1,24 @@
+.section-home{
+    text-align: center;
+}
+
+.cuerpoDetexto-home{
+    font-size: var(--tamañoCuerpoTexto);
+    margin: 0px ;
+    line-height: 1.5;
+    color: var(--colorGrisOscuro);
+}
+
+.descricion-footerHome{
+    font-size: var(--tamañoDescuentos-Descripciones);
+    text-align: center;
+    color: var(--colorGrisOscuro);
+    margin-top: 6px;
+    text-decoration: none;
+}
+.icono-footer{
+    color: var(--colorCeleste);
+    font-size: 28px;
+    padding: 5px;
+}
+
