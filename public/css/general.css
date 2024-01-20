@@ -18,13 +18,14 @@
 }
 
 body{
-    margin: 80px;
+    margin: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 100px;
+    padding: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
     background-color: var(--colorGrisClaro);
+    width: 100%;
 }
 a {
     text-decoration: none;
