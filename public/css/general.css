@@ -44,6 +44,7 @@ a {
     } 
     
     .icono-lupaBusqueda{
+    margin-left: 45px;
     }
     .lupa-busqueda{
     }
@@ -55,6 +56,7 @@ a {
     .burger-menu{
     }
     .burger-menu-icon{
+    margin-left: 45%;
     }
     .lista-desordenada{
     padding-left: 20px;
@@ -64,12 +66,14 @@ a {
     }
 .ofertas-home{}
 
-.logo-home{margin-right: 80px;width: 40%;}
+.logo-home{margin-right: 95px;width: 40%;}
 .home-body{
     
 display: block;
 }
-.barraDeBusqueda-Home{}
+.barraDeBusqueda-Home{
+    margin-left: 40px;
+}
 .header-cuerpoconIcono{}
 
 .titulares{
@@ -86,6 +90,65 @@ display: block;
 .footer-mensaje{}
 }
 
+@media screen and (min-width: 769px){
+    .header-home{
+        }
+        .h2-header{
+    }
+        
+        .cuerpoDetexto-header{
+        } 
+        
+        .icono-lupaBusqueda{
+        margin-right: 240px;
+        }
+        .lupa-busqueda{
+        }
+        .logo-barraBusqueda{
+    }
+        
+        .burger-menu{
+        margin-left: 45%;
+        }
+        .burger-menu-icon{
+        margin: 0px;
+        }
+        .lista-desordenada{
+        display: inline-flex;
+        /* flex-direction: row; */
+        /* flex-wrap: wrap; */
+        /* align-items: stretch; */
+        }
+    .ultima-vista-home{
+        }
+    .ofertas-home{}
+    
+    .logo-home{
+    margin-right: 220px;
+}
+    .home-body{
+    }
+    .barraDeBusqueda-Home{
+    margin-right: 250px;
+}
+    .header-cuerpoconIcono{}
+    
+    .titulares{
+    }
+    .descripcion-home{
+    }
+    
+    .precio-home{}
+    .descuentos-home{}
+    .imagen-producto{
+    /* width: 90%; */
+    }
+    .articulo-home{/* width: 90%; */margin-top: 80px;}
+    .footer-mensaje{}
+    }
+    
+
+    
 /*
  Tamaños Tipográficos:
 Cuerpos de texto: 12px
