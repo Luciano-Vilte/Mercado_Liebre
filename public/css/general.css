@@ -15,6 +15,7 @@
 
 * {
     font-family: var(--familyRoboto);
+    box-sizing: border-box;
 }
 
 body{
@@ -32,6 +33,58 @@ a {
     color: var(--colorAzul);
 }
 
+@media (min-width: 361px){
+    .header-home{
+    width: 100%;
+    }
+    .h2-header{
+}
+    
+    .cuerpoDetexto-header{
+    } 
+    
+    .icono-lupaBusqueda{
+    }
+    .lupa-busqueda{
+    }
+    .logo-barraBusqueda{
+    width: 80%;
+    margin-left: 0;
+}
+    
+    .burger-menu{
+    }
+    .burger-menu-icon{
+    }
+    .lista-desordenada{
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+.ultima-vista-home{
+    }
+.ofertas-home{}
+
+.logo-home{margin-right: 80px;width: 40%;}
+.home-body{
+    
+display: block;
+}
+.barraDeBusqueda-Home{}
+.header-cuerpoconIcono{}
+
+.titulares{
+}
+.descripcion-home{
+    margin-top: 0px;
+}
+
+.precio-home{margin-top: 40px;}
+.descuentos-home{margin: 10px;}
+.imagen-producto{
+}
+.articulo-home{}
+.footer-mensaje{}
+}
 
 /*
  Tamaños Tipográficos:

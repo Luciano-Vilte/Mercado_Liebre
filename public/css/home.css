@@ -8,10 +8,11 @@
 .ofertas-home{}
 
 .logo-home{
-    width: 75%;
-    height: auto; 
-    margin-left: 80px;
+    /* width: 25%; */
+    height: auto;
+    /* margin-left: 80px; */
     margin-top: 30px;
+    /* margin-right: 80px; */
 }
 
 .barraDeBusqueda-Home{

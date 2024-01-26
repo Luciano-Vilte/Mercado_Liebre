@@ -1,6 +1,9 @@
 .header-home{
     background-color: var(--colorAmarillo);
 }
+.h2-header{
+    font-size: var(--tamañoCuerpoTexto);
+}
 
 .cuerpoDetexto-header{
     font-size: var(--tamañoCuerpoTexto);
