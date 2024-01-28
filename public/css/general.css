@@ -108,7 +108,7 @@ display: block;
     }
         
         .burger-menu{
-        margin-left: 45%;
+        /* margin-left: 45%; */
         }
         .burger-menu-icon{
         margin: 0px;
@@ -124,7 +124,7 @@ display: block;
     .ofertas-home{}
     
     .logo-home{
-    margin-right: 220px;
+    /* margin-right: 220px; */
 }
     .home-body{
     }
@@ -143,11 +143,70 @@ display: block;
     .imagen-producto{
     /* width: 90%; */
     }
-    .articulo-home{/* width: 90%; */margin-top: 80px;}
+    .articulo-home{/* width: 90%; *//* margin-top: 80px; */}
     .footer-mensaje{}
     }
     
+@media screen and (min-width: 1024px){
+    .header-home{
+    }
+    .h2-header{
+}
+    
+    .cuerpoDetexto-header{
+    } 
+    
+    .icono-lupaBusqueda{
+    max-width: 400px;
+    margin-right: 63.5%;
+    }
+    .lupa-busqueda{
+    }
+    .logo-barraBusqueda{
+}
+    
+    .burger-menu{
+    margin-left: 47%;
+    }
+    .burger-menu-icon{
+    }
+    .lista-desordenada{
+    }
+.ultima-vista-home{
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 16px;
+    }
+.Ofertas-home{margin-left: 15px;font-size: 16px;}
 
+.logo-home{width: 300px;margin-right: 70%;}
+.home-body{
+}
+.barraDeBusqueda-Home{margin-right: 65%;max-width: 380px;}
+.header-cuerpoconIcono{}
+
+.titulares{
+}
+.descripcion-home{
+}
+
+.precio-home{}
+.descuentos-home{}
+.imagen-producto{
+    width: 400px;
+    height: auto;
+}
+.articulo-home{
+    margin-top: 10px;
+}
+.articulos-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+.footer-mensaje{}
+}
     
 /*
  Tamaños Tipográficos:
