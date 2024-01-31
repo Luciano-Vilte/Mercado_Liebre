@@ -37,7 +37,7 @@ a {
     .header-home{
     width: 100%;
     }
-    .h2-header{margin-top: 35px;margin-bottom: 10px;color: #03264C;}
+    .h2-header{margin-top: 35px;margin-bottom: 10px;color: #03264C;margin-left: 25%;}
     
     .cuerpoDetexto-header{
         display: none;
@@ -52,8 +52,9 @@ a {
     .logo-barraBusqueda{
     width: 100%;
     display: flex;
-    padding: 9px;
-    gap: 10px;
+    padding: 5px;
+    gap: 4px;
+    flex-wrap: wrap;
 }
     
     .burger-menu{
@@ -78,12 +79,12 @@ a {
     margin-bottom: 15px;
 }
 
-.logo-home{width: 40%;height: 43px;margin-left: 20px;margin-top: 20px;}
+.logo-home{width: 45%;height: 43px;/* margin-left: 20px; */margin-top: 20px;}
 .home-body{
     
 display: block;
 }
-.barraDeBusqueda-Home{width: 48%;height: 35px;border-radius: 6px;border: 10px;margin-top: 25px;}
+.barraDeBusqueda-Home{width: 45%;height: 35px;border-radius: 6px;border: 10px;margin-top: 25px;}
 .header-cuerpoconIcono{}
 
 .titulares{
@@ -108,41 +109,64 @@ display: block;
     color: #666;
 }
 .articulo-home{
-    width: 300px;
-    margin: 0px;
-    margin-bottom: 50px;
-    text-align: center;
+    
+width: 300px;
+    
+margin: 0px;
+    
+margin-bottom: 50px;
+    
+text-align: center;
 }
 .articulos-section{
-    display: block;
-    padding: 20px;
-    margin-left: 35px;
+    display: flex;
+    padding: 18px;
+    flex-direction: column;
+    align-items: center;
 }
 .footer-mensaje{}
 }
 
 @media screen and (min-width: 769px){
     .header-home{
+        width: 100%;
         }
         .h2-header{
+    margin-left: 5%;
+    margin-top: 45px;
     }
         
         .cuerpoDetexto-header{
+        display: flex;
+        gap: 20px;
+        flex-wrap: nowrap;
         } 
         
         .icono-lupaBusqueda{
-        margin-right: 240px;
+        margin: 0px;
+        margin-top: 25px;
         }
         .lupa-busqueda{
+        border-radius: 0px;
+        height: 16px;
+        margin-top: 21px;
         }
         .logo-barraBusqueda{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
     }
+    .nav-header{
+    display: flex;
+    justify-content: center;
+}
         
         .burger-menu{
-        /* margin-left: 45%; */
+        display: none;
         }
         .burger-menu-icon{
-        margin: 0px;
+        align-items: center;
         }
         .lista-desordenada{
         display: inline-flex;
@@ -150,19 +174,37 @@ display: block;
         /* flex-wrap: wrap; */
         /* align-items: stretch; */
         }
-    .ultima-vista-home{
-        }
-    .ofertas-home{}
-    
-    .logo-home{
-    /* margin-right: 220px; */
+        .nav-header{
+    gap: 15%;
+    margin-top: 25px;
 }
+.main-home{
+    width: 100%;
+}
+    .ultima-vista-home{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        margin-left: 30px;
+        }
+    .Ofertas-home{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+    
+    .logo-home{width: 200px;height: 5%;margin-left: 30px;margin-right: 20px;}
     .home-body{
     }
-    .barraDeBusqueda-Home{
-    margin-right: 250px;
-}
+    .barraDeBusqueda-Home{width: 200px;height: 2%;border-radius: 0px;margin-top: 45px;}
     .header-cuerpoconIcono{}
+    .articulos-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
+    padding: 0px;
+}
     
     .titulares{
     }
@@ -174,7 +216,7 @@ display: block;
     .imagen-producto{
     /* width: 90%; */
     }
-    .articulo-home{/* width: 90%; *//* margin-top: 80px; */}
+    .articulo-home{width: 300px;/* margin-top: 80px; */}
     .footer-mensaje{}
     }
     
