@@ -224,23 +224,27 @@ text-align: center;
     .header-home{
     }
     .h2-header{
+    margin-left: 10%;
 }
     
     .cuerpoDetexto-header{
+    margin-right: 55px;
+    margin-left: 30px;
     } 
     
     .icono-lupaBusqueda{
-    max-width: 400px;
-    margin-right: 63.5%;
     }
     .lupa-busqueda{
     }
-    .logo-barraBusqueda{
-}
+    .logo-barraBusqueda{display: flex;}
     
     .burger-menu{
     margin-left: 47%;
     }
+    .nav-header{
+    display: flex;
+    justify-content: space-between;
+}
     .burger-menu-icon{
     }
     .lista-desordenada{
@@ -248,14 +252,18 @@ text-align: center;
 .ultima-vista-home{
     margin-top: 30px;
     margin-left: 15px;
-    font-size: 16px;
+    font-size: 24px;
+    margin-left: 70px;
     }
-.Ofertas-home{margin-left: 15px;font-size: 16px;}
+.Ofertas-home{margin-left: 75px;font-size: 24px;}
 
-.logo-home{width: 300px;margin-right: 70%;}
+.logo-home{width: 350px;}
 .home-body{
 }
-.barraDeBusqueda-Home{margin-right: 65%;max-width: 380px;}
+.barraDeBusqueda-Home{
+    width: 18%;
+    margin-left: 20px;
+}
 .header-cuerpoconIcono{}
 
 .titulares{
@@ -266,19 +274,23 @@ text-align: center;
 .precio-home{}
 .descuentos-home{}
 .imagen-producto{
-    width: 400px;
+    width: 248px;
     height: auto;
 }
 .articulo-home{
     margin-top: 10px;
+    width: 250px;
 }
 .articulos-section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 100px;
+    gap: 40px;
 }
 .footer-mensaje{}
+.footer-home{
+    padding: 50px;
+}
 }
     
 /*
