@@ -37,20 +37,23 @@ a {
     .header-home{
     width: 100%;
     }
-    .h2-header{
-}
+    .h2-header{margin-top: 35px;margin-bottom: 10px;color: #03264C;}
     
     .cuerpoDetexto-header{
+        display: none;
     } 
     
     .icono-lupaBusqueda{
-    margin-left: 45px;
+    margin: 0px;
+    width: auto;
+    margin-top: 25px;
     }
-    .lupa-busqueda{
-    }
+    .lupa-busqueda{border: 1px;height: 34px;background-color: white;border-radius: 5px;}
     .logo-barraBusqueda{
-    width: 80%;
-    margin-left: 0;
+    width: 100%;
+    display: flex;
+    padding: 9px;
+    gap: 10px;
 }
     
     .burger-menu{
@@ -63,30 +66,58 @@ a {
     padding-right: 20px;
     }
 .ultima-vista-home{
+    font-size: 24px;
+    color: #666;
+    margin-top: 15px;
+    margin-left: 15px;
     }
-.ofertas-home{}
+.Ofertas-home{
+    font-size: 24px;
+    color: #666;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
 
-.logo-home{margin-right: 95px;width: 40%;}
+.logo-home{width: 40%;height: 43px;margin-left: 20px;margin-top: 20px;}
 .home-body{
     
 display: block;
 }
-.barraDeBusqueda-Home{
-    margin-left: 40px;
-}
+.barraDeBusqueda-Home{width: 48%;height: 35px;border-radius: 6px;border: 10px;margin-top: 25px;}
 .header-cuerpoconIcono{}
 
 .titulares{
+}
+.descripcion-producto{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
 }
 .descripcion-home{
     margin-top: 0px;
 }
 
-.precio-home{margin-top: 40px;}
-.descuentos-home{margin: 10px;}
-.imagen-producto{
+.precio-home{
+    display: flex;
+    justify-content: center;
 }
-.articulo-home{}
+.descuentos-home{margin: 20px;color: #39b54a;}
+.imagen-producto{width: 298px;height: auto;}
+.nombre-producto{
+    margin-top: 1px;
+    color: #666;
+}
+.articulo-home{
+    width: 300px;
+    margin: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.articulos-section{
+    display: block;
+    padding: 20px;
+    margin-left: 35px;
+}
 .footer-mensaje{}
 }
 

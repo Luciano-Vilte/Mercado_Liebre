@@ -1,25 +1,12 @@
 .logo-barraBusqueda{
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    margin-right: 80%;
 }
 .ultima-vista-home{display: flex;box-sizing: border-box;}
 .ofertas-home{}
 
 .logo-home{
-    /* width: 25%; */
-    /* height: auto; */
-    /* margin-left: 80px; */
-    margin-top: 30px;
-    /* margin-right: 80px; */
 }
 
 .barraDeBusqueda-Home{
-    margin-top: 20px;
-    width: 100%;
-    /* max-width: 300px; */
-    /* margin-left: 100px; */
 }
 .header-cuerpoconIcono{
     font-size: 10px;
@@ -34,21 +21,15 @@
 
 .precio-home{
     font-size: var(--tamañoPrecios);
-    margin-bottom: 2px;
 }
 .descuentos-home{
     font-size: var(--tamañoDescuentos-Descripciones);
 
 }
 .imagen-producto{
-    /* width: 300px; */
-    /* height: 300px; */
-    border: 0.2px solid rgba(0, 0, 0, 0.3);
 }
 .articulo-home{
-    border: 0.2px solid rgba(0, 0, 0, 0.3);
-    background-color: white;
-    text-align: center;
-    /* margin-top: 30px; */
-    margin-bottom: 30px;
+    border: 0.5px solid #ccc;
+    /* background-color: white; */
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
 }

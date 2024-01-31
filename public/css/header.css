@@ -10,16 +10,8 @@
 } 
 
 .icono-lupaBusqueda{
-    width: 100%;
-    /* max-width: 300px; */
-    /* margin-left: 92.5px; */
 }
-.lupa-busqueda{
-    border: 0.7px solid rgba(0, 0, 0, 0.4);
-    border-radius: 1px;
-
-
-}
+.lupa-busqueda{}
 
 .burger-menu{
     /* margin-left: 160px; */
