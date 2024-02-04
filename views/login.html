@@ -24,65 +24,20 @@
     
         </header>
                   
-        <main class="register container main-register">
-            <form class="row d-block my-5 mx-auto w-50" >
-                <div class="d-flex flex-column col-10 my-4">
-                <label for="datosPersonales" class="datos-personales h5 my-3">Datos personales</label>
-               <input class="form-control form-control-sm my-1" type="text" placeholder="Nombre y apellido">
-               <input class="form-control form-control-sm my-1" type="text" placeholder="Nombre de usuario">
-               <input class="form-control form-control-sm my-1" type="email" placeholder="E-mail">
-                </div>
-                <div class="d-flex flex-column col-10 my-4">
-                <label for="contraseña" class="password-register h5 my-3">Contraseña</label>
-               <input class="form-control form-control-sm my-1" type="password" placeholder="Contraseña">
-               <input class="form-control form-control-sm my-1" type="password" placeholder="Confirmar contraseña">
-                </div>
-                <div class="d-flex flex-column col-10">
-               <label for="fechaNacimiento" class="nacimiento my-3 h5">Fecha de nacimiento</label>
-               <input class="form-control form-control-sm my-1 " type="date">
-               <input class="form-control form-control-sm my-1" type="text" placeholder="Domicilio">
-              </div>
-              <div class="d-flex flex-column my-4">
-               <label class="perfilUsText h5 my-3">Perfil de usuario</label>
-               <label for="PerfilUsr1" class="perfilUs1 fw-light">
-                   <input type="radio" id="PerfilUsr" name="perfUs" checked>Comprador
-               </label>
-               <label for="PerfilUsr2" class="perfilUs2 fw-light">
-                
-                   <input type="radio" id="PerfilUsr" name="perfUs">Vendedor
-               </label>
-           </div>
-           <div class="d-flex flex-column my-4">
-               <label for="intereses" class="intereses1 h5 my-3">Intereses</label>
-               <div>
-                   <input class="form-check-input" type="checkbox" name="intereses" id="moda" value="moda">
-                <label class="fw-light" for="moda">Moda</label>
+        <main class="">
+           <form>
+            <div>
+                <label for="nombreDeUser">Nombre de Usuario</label>
+                    <input type="text" placeholder="username">
             </div>
             <div>
-                <input class="form-check-input" type="checkbox" name="intereses" id="fotografia" value="fotografia">
-                <label  class="fw-light" for="fotografia">Fotografía</label>
+                <label for="contrasenia">Contraseña</label>
+                    <input type="text" placeholder="contraseña">
             </div>
-            <div>
-                <input class="form-check-input" type="checkbox" name="intereses" id="deporte" value="deporte">
-                <label  class="fw-light" for="deporte">Deporte</label>
-            </div>
-            <div>
-                <input class="form-check-input" type="checkbox" name="musica" id="musica" value="musica">
-                <label  class="fw-light" for="cv">Musica</label>
-            </div>
-            <div>
-                <input class="form-check-input" type="checkbox" name="intereses" id="tecnologia" value="tecnologia">
-                <label  class="fw-light" for="tecnologia">Tecnología</label>
-            </div>
-            <div>
-                <input class="form-check-input" type="checkbox" name="intereses" id="entretenimiento" value="entretenimiento">
-                <label  class="fw-light" for="entretenimiento">Entretenimiento</label>
-            </div>
-           </div>
+           </form> 
            
            <div class=" my-5 botones-register">
-           <button class="btn btn-success" type="submit"><a href="/login">Crear Cuenta</a></button>
-           <button type="reset" class="btn btn-danger"><a href="/main">Volver atras</a></button>
+           <button class="btn btn-success" type="submit"><a href="/main">Iniciar sesión</a></button>
            </div>
             </form>
         </main>
