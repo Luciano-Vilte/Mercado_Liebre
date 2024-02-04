@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Creá tu cuenta</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body class="home-body">
+        <header class="header-home">
+            <div class="logo-barraBusqueda-register">
+                <img class="logo-homeRegister"  src="/images/logo-mercado-liebre.svg" alt="logo">
+           
+             </div>
+             
+            <div class="burger-menu">
+                <button class="burger-menu-icon">
+                  <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                </button>
+            </div>
+    
+        </header>
+                  
+        <main class="register container main-register">
+            <form class="row d-block my-5 mx-auto w-50" >
+                <div class="d-flex flex-column col-10 my-4">
+                <label for="datosPersonales" class="datos-personales h5 my-3">Datos personales</label>
+               <input class="form-control form-control-sm my-1" type="text" placeholder="Nombre y apellido">
+               <input class="form-control form-control-sm my-1" type="text" placeholder="Nombre de usuario">
+               <input class="form-control form-control-sm my-1" type="email" placeholder="E-mail">
+                </div>
+                <div class="d-flex flex-column col-10 my-4">
+                <label for="contraseña" class="password-register h5 my-3">Contraseña</label>
+               <input class="form-control form-control-sm my-1" type="password" placeholder="Contraseña">
+               <input class="form-control form-control-sm my-1" type="password" placeholder="Confirmar contraseña">
+                </div>
+                <div class="d-flex flex-column col-10">
+               <label for="fechaNacimiento" class="nacimiento my-3 h5">Fecha de nacimiento</label>
+               <input class="form-control form-control-sm my-1 " type="date">
+               <input class="form-control form-control-sm my-1" type="text" placeholder="Domicilio">
+              </div>
+              <div class="d-flex flex-column my-4">
+               <label class="perfilUsText h5 my-3">Perfil de usuario</label>
+               <label for="PerfilUsr1" class="perfilUs1 fw-light">
+                   <input type="radio" id="PerfilUsr" name="perfUs" checked>Comprador
+               </label>
+               <label for="PerfilUsr2" class="perfilUs2 fw-light">
+                
+                   <input type="radio" id="PerfilUsr" name="perfUs">Vendedor
+               </label>
+           </div>
+           <div class="d-flex flex-column my-4">
+               <label for="intereses" class="intereses1 h5 my-3">Intereses</label>
+               <div>
+                   <input class="form-check-input" type="checkbox" name="intereses" id="moda" value="moda">
+                <label class="fw-light" for="moda">Moda</label>
+            </div>
+            <div>
+                <input class="form-check-input" type="checkbox" name="intereses" id="fotografia" value="fotografia">
+                <label  class="fw-light" for="fotografia">Fotografía</label>
+            </div>
+            <div>
+                <input class="form-check-input" type="checkbox" name="intereses" id="deporte" value="deporte">
+                <label  class="fw-light" for="deporte">Deporte</label>
+            </div>
+            <div>
+                <input class="form-check-input" type="checkbox" name="musica" id="musica" value="musica">
+                <label  class="fw-light" for="cv">Musica</label>
+            </div>
+            <div>
+                <input class="form-check-input" type="checkbox" name="intereses" id="tecnologia" value="tecnologia">
+                <label  class="fw-light" for="tecnologia">Tecnología</label>
+            </div>
+            <div>
+                <input class="form-check-input" type="checkbox" name="intereses" id="entretenimiento" value="entretenimiento">
+                <label  class="fw-light" for="entretenimiento">Entretenimiento</label>
+            </div>
+           </div>
+           
+           <div class=" my-5 botones-register">
+           <button class="btn btn-success" type="submit"><a href="/">Enviar</a></button>
+           <button type="reset" class="btn btn-danger"><a href="/">Borrar</a></button>
+           </div>
+            </form>
+        </main>
+    
+    
+    
+        <footer class="footer-home">
+            <section class="section-home">
+                <ul type="none" class="descripcion-home">
+                    <a class="icono-footer"><i class="fa-solid fa-credit-card"></i></a>
+                    <li class="descricion-footerHome"><b>Pagá con tarjeta o en efectivo</b></li>
+                    <p class="cuerpoDetexto-home">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en<br>puntos de pago. ¡Y siempre es seguro!</p>
+                </ul>
+            </section>
+    
+    
+            <section class="section-home">
+                <ul type="none" class="descripcion-home">
+                    <a class="icono-footer"><i class="fa-solid fa-gift"></i></a>
+                    <li class="descricion-footerHome"><b>Envío gratis desde $ 2.500</b></li>
+                    <p class="cuerpoDetexto-home">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de<br>productos. Es un beneficio de Mercado Puntos.</p>
+                </ul>
+            </section>
+    
+            <section class="section-home">
+                <ul type="none" class="descripcion-home">
+                    <a class="icono-footer"><i class="fa-solid fa-user-shield"></i></a>
+                    <li class="descricion-footerHome"><b>Seguridad, de principio a fin</b></li>
+                    <p class="cuerpoDetexto-home">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,<br>porque estás siempre protegid@.</p>
+                </ul>
+            </section>
+    
+            <section>
+                <ul type="none" class="cuerpoDetexto-home">
+                    <li class="footer-mensaje">Copyright © 1999-2020 MercadoLiebre S.R.L</li>
+                </ul>
+            </section>
+    
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+    
+</html>

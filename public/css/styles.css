@@ -2,6 +2,8 @@
 
 
 @import "./general.css";
+@import ".register.css";
 @import "./home.css";
 @import "./header.css";
 @import "./footer.css";
+@import "./register.css";
